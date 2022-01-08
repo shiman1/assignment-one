@@ -1,0 +1,116 @@
+body{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    
+}
+h1{
+    font-size: 50px;
+
+}
+h2{
+    font-size: 25px;
+}
+.name{
+    color: orange;
+}
+#border{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(#2dccfc, #ce2be4) 30;
+    border-image-slice: 1;
+    box-sizing: auto;
+    letter-spacing: 0pt;
+    
+}
+.flex-box{
+    display: flex;
+    margin-bottom: 5%;
+}
+.halp-width{
+    width: 50%;
+    padding-left: 80px;
+    margin: 2%;
+
+}
+.halp-width img{
+    width: 80%;
+    height: 400px;
+    border-radius: 10%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(224, 44, 20);
+    padding: 10px 40px;
+    color: paleturquoise;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.mid-headline{
+    text-align: center;
+}
+.container{
+position: relative;
+width: 1200px;
+height:300px;
+margin: 240px auto;
+
+
+}
+.box{
+
+    width:25%;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-left: 20px;
+    border-radius: 10px;   
+}
+.box img{
+    width: 50%;
+    border-radius: 5%;
+}
+        
+flex-box{
+    display: flex;
+    margin-bottom: 10%;
+}
+#box1{ 
+    background-color: rgba(241, 243, 123, 0.733);
+}
+#box2{ 
+    background-color: rgb(190, 240, 250);
+}
+#box3{
+    background-color: rgba(250, 212, 155, 0.733);
+}
+#font{
+    color:rgb(247, 7, 7)
+}
+
+.dream{
+    background-image: url(bg-images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.banner{
+    background-image: url(bg-images/shape-1.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.tree{
+    background-image: url(bg-images/shape-6.png);
+    background-size:20% ;
+    background-repeat: no-repeat;
+
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:blanchedalmond;
+    background: black;
+}
+
